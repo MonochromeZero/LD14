@@ -1,0 +1,211 @@
+(Tentative Name) Yomi: Return From the Underworld
+Genre: RPG (Dungeon Crawler/Rogue-like)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Commands
+
+Attack (Select Attack command, then select valid target to attack with weapon in hand.  Ends turn.)
+
+Defend (Select Defend command to reduce all damage taken until next turn by 15%.  Ends turn.)
+
+Item (Select Item command to access Item menu [Sub-menus: Consumable Items; Non-consumable Items].  If item is used, turn is ended.)
+
+Equipment (Select Equipment command to access Equipment menu.)
+
+Move (Select Move command to move to target adjacent space.  Ends turn.)
+
+Lore (Select Lore command to access Lore menu [Sub-menus: Enemies (includes Bosses); Weapons; Armor; Accessories])
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Enemies
+
+Yuki-onna (Type: Youkai/Spirit): A female youkai born from the spirits 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bosses
+
+Muramasa: Corrupted Sword of Bloodlust (Type: Youkai) - (Required) (Lore: One of many cursed swords forged by the legendary smith Muramasa.  While powerful, the sword slowly corrupts its wielders, turning them into cruel harbingers
+of death and destruction.  Over time, the sword obtained sentience due to the deaths that it brought upon mankind.  Now, lurking within the depths of Yomi, it threatens to cause indescribable terror for all who
+approach it)  Attacks:  Swing (1 space radius) - Swings itself for medium damage, restoring 10 HP upon doing so.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Saika Magoichi: Arquebus Lord (Type: Spirit) - (Optional) (Lore: One of three leaders of the Saika Ikki who went under the name "Saika Magoichi".  
+In life, he was a skilled gunman who served as a mercenary in his early years and a trusted warrior in his later years.  He is famous for having helped repel Oda Nobunaga's forces with a squad of 600 gunmen in 1570. 
+He eventually committed suicide under the order of his lord.)  Possessor of the Arquebus weapon.  Attacks:  Shot (3 space radius) - Shoots player with his arquebus for medium damage.  
+Power Shot (3 space radius) - Shoots player with an especially powerful shot for medium-high damage and knocks player back two spaces.  Saika Ikki - Summons two Spectral Gunmen (1 on either side) to fight for
+him.  Suppressing Fire (5x1/2/3/4/5 AOE) - Fires a spread of bullets in target direction for medium damage.  Stuns player for one turn.  Tactical Retreat (1 space radius) - Slashs at player with bayonet for medium
+damage then leaps 3 spaces back.  Bayonet (1 space radius) - Slashs at player with bayonet for low damage.  Rapid Fire (3 space radius) - Fires 12 bullets in random directions, each bullet dealing medium-low damage.
+Ace in the Hole (3 space radius) (Will use if player has less than 8% health) - Fires a bullet at the player's head, instantly killing the player.
+
+Behavior: 100-75% - Uses Shot, Power Shot, Bayonet, and Tactical Retreat.  75-25% - Uses Shot, Power Shot, Bayonet, Tactical Retreat, and Saika Ikki.  25% and lower - Uses Shot, Power Shot, Bayonet, Tactical
+Retreat, Saika Ikki, Rapid Fire, and Ace in the Hole.
+
+Drops Magoichi upon defeat.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Shuten-Doji: Great Oni of the Mountain (Type: Youkai/Oni) - (Optional) (Lore:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tamamo-no-Mae: Nine-Tailed Courtesan (Type: Youkai) - (Required) (Lore: )  The guardian of Yata no Kagami, one of the three Imperial Regalia of Japan.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Yamato Takeru: Berserk Hero of Nippon (Type: Spirit) - (Required) (Lore:)  The guardian of Kusanagi no Tsurugi, one of the three Imperial Regalia of Japan.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Susanoo: God of Storms (Type: Divinity/Susanoo) - (Required) (Lore:)  The final boss of the game.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Byakko: White Tiger of the West (Type: Divinity)- (Optional) (Lore:The legendary White Tiger of the West, said to only appear when an emperor rules with absolute virtue or when peace
+reigns throughout the world.  Byakko is commonly associated with the Chinese element of Metal, which in turn represents Autumn, clouds, snow, metal, pure water, and magnetism.  It is said that defeating Byakko
+in combat will reward the victor with a blade enchanted with Byakko's might.)  One of the three superbosses in the game.  15% chance of dropping Suzaku Wing upon defeat.
+Attacks:  Iron Claw (1 space radius) - Attacks with claws for medium-high damage.  Frozen Core
+(3 space AOE around Byakko) - Summons a violent snowstorm that deals medium-high damage and has a 10% chance of freezing the player for 3 turns.  Only used in Byakko Essence.  Pounce (3 space radius/1 space AOE) - Byakko pounces to
+target location, dealing medium-high damage in AOE around his landing point.  Magnet Pull (4 space AOE) - Byakko unleashes a powerful magnetic field, pulling the player to a space adjacent to Byakko.  Only used in Byakko Essence.
+Essence Swap: Suzaku - Byakko swaps his essence with that of the Vermillion Bird of the South, Suzaku.  Magma Flow (3 space AOE) - 
+Byakko creates a pool of magma around him that deals medium damage per turn to all beings standing upon it asides from Byakko.   Lasts for 3 turns.  Only used in Suzaku Essence.  Explosive Roar (6 space target range)- Byakko takes in a large amount of air.
+(1 turn)  On the next turn, Byakko lets out a powerful roar that creates an explosion at the target location, dealing high damage.  Only used in Suzaku Essence.  Essence Swap: Genbu - Byakko swaps his essence with
+that of the Black Tortoise of the North, Genbu.  Mirror Force - Byakko creates a mirror barrier on him that reflects 50% of the damage dealt to him and increases his defense by 50% for 3 turns.  Only used in Genbu Essence.
+Noxious Sludge (3 space AOE) - Byakko creates a pool of immobilizing sludge around him that prevents movement to all beings standing upon it but Byakko.  Lasts for 3 turns.  Only used in Genbu Essence.
+Essence Swap: Seiryuu - Byakko swaps his essence with that of the Azure Dragon of the East, Seiryuu.  Toxin of Divinity (3 space radius) - Byakko inflicts the player with a divine poison that lasts for 5 turns, dealing
+medium damage each turn.  Only used in Seiryuu Essence.  Sonic Roar (5 space radius) - Byakko unleashes a powerful roar, knocking the player back 5 spaces and dealing medium-high damage.  Essence Swap:
+Ouryuu - Byakko swaps his essence to that of the Yellow Dragon, Ouryuu.   In the essence, he can wield any of the other stances abilities.
+Under Heaven Destruction (Full room AOE) - Byakko leaps to the center of the room and begins summoning the symbols of Fire, Water, Wood,
+and Metal.  (5 turns)  On his next turn, he multiplies the gravity in the room by 1000x, dealing massive damage to all beings in the room.  Only used in Ouryuu Essence.
+
+Behavior: Healthy (100-75%) - Uses Byakko Essence + abilities exclusively.  Damaged (75-25%) - Uses Byakko, Suzaku, Genbu, and Seiryuu Essences and abilities.  Enraged (25% and below) - Immediately swaps
+over to Ouryuu Essence when health goes below 25% and uses Ouryuu, Byakko, Suzaku, Genbu, and Seiryuu Essences and abilities (cannot swap Essences).
+
+Drops Tora-Shinai upon defeat.  Has a 10% chance of dropping a Suzaku Wing upon defeat.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tsun-Tsun: Goddess of Indecision (Type: Divinity) - (Optional) (Lore: A relatively new goddess in the Shinto pantheon, Tsun-Tsun was born from the desires of a million otaku.  Although she is only the height of prepubescent girl,
+her immense power while enraged makes even Susanoo tremble.  Her symbols are a harisen, an ironing board, and the phrase "Urusai".  Legend has it that she will grant a symbol of her power to one who manages to
+defeat her in combat.)  One of the three superbosses in the game.  Attacks:   Blood Axe (1 space radius) - Attacks with her axe for high damage.  Pettan-Pistols (3 space radius) - Attacks with her pistols for medium-high damage.  
+Crimson Wings of Annihilation (7 space radius/3 space AOE) - Grows wings and flies towards the sky (takes 2 turns).  On third turn, dives toward target direction, dealing massive damage, 
+possibly enough to one-shot squishier players.  Raijin's Cannon (10 space radius) - Charges an orb of steel with an immense amount of electricity (takes 1 turn).  
+On next turn, fires orb, dealing massive damage in direction.  Void of Izanagi (12 space target radius/3 space AOE) - Causes an explosion in a random area that deals high damage.  
+Taiga - Summons tiger familiar to fight for her.  Will target player, and deals high damage to player when attacks (1 space radius).  Taiga and Ryu - Summons tiger familiar and dragon familiar to fight for her. 
+Tiger is stronger version of "Taiga" tiger.  Ryu can attack with claws (1 space radius) or with fire breath (3 space radius).  Art of Tsun: Immobilizing Lock of Indecision (1 space radius) - Stuns the player for 3 turns
+and deals moderate damage each turn to the player.  However, Tsun-Tsun cannot use any of her other attacks while doing this.  Taiga and Ryu on the other hand...
+
+Behavior: Healthy (100-75%) - Attacks with Blood Axe, Pettan-Pistols, Taiga, and occasionally Raijin's Cannon.  Damaged (75-25%) - Attacks with Blood Axe, Pettan-Pistols, Taiga and Ryu, Art of Tsun, and
+occasionally Crimson Wings or Raijin's Cannon.  Enraged (25% and below) - Uses all aforementioned attacks as well as Void of Izanagi (VoI occurs each turn).  All attacks deal more damage, and CW + RC used more often.
+
+	Taiga - (Lore: One of Tsun-Tsun's familiars.  A powerful tiger descended from Byakko.  For some reason, this tiger is unnaturally smaller compared to its kin with an equally unnatural temper.)
+	Ryu - (Lore: One of Tsun-Tsun's familiars.  A powerful dragon descended from Shinryu.  For some reason, this dragon is unnaturally smaller compared to its kin with an equally unnatural arrogance.)
+
+Both Taiga and Ryu are treated as bosses for the purpose of Amenonuhoko
+
+Drops Harisen upon defeat.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+St. Maid-Guy: Patron Saint of Maids (Type: Divinity) - (Optional) (Lore:  A western deity brought to Japan by the Portuguese.  Despite being the Patron Saint of Maids, St. Maid-Guy
+is commonly depicted as incredibly muscular yet effeminate, wearing a somewhat skimpy maid outfit over his toned muscles.  It is said that St. Maid-Guy will grant people
+who defeat him a sacred garb infused with his essence.) One of the three superbosses in the game.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Items (Maximum of 15
+ unique items in bag)
+
+
+Consumable items
+
+Dango - restores 15 Health (Random drop/Chests) (Can have a max of 10 Dangos)
+
+Rice Ball - restores 30 Health (Random drop/Chests) (Can have a max of 7 Rice Balls)
+
+Sushi - restores 45 Health (Random drop/Chests) (Can have a max of 5 Sushi)
+
+Bento - restores 60 Health (Random drop/Chests) (Can have a max of 3 Bentos)
+
+Soba - restores 90 Health (Random drop/Chests) (Can have a max of 1 Soba)
+
+Tiger Sake - temporarily increases ATK by 30% for 5 turns.  (Random drop/Chests) (Can have a max of 5 Tiger Sakes)
+
+Tortoise Sake - temporarily increases DEF by 30% for 5 turns.  (Random drop/Chests) (Can have a max of 5 Tortoise Sakes)
+
+Dragon Sake - temporarily increases ATK + DEF by 30% for 5 turns (Chests) (Can have a max of 3 Dragon Sakes)
+
+Suzaku Wing - revives player upon death with 40% health.  (Occasionally dropped by Byakko: White Tiger of the West) (Can have a max of 1 Suzaku Wing)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Swords (attack from 1 space radius, for the most part)
+
+Bokken - A wooden practice sword worn from usage.  The famed swordsman Miyamoto Musashi used bokken to defeat multiple fully armed opponents in his many duels.  +18 ATK.  (Random drop) 
+(If player has obtained Blessing of Musashi, Bokken ATK raised to +75)
+
+Katana - A standard Japanese sword wielded by samurai.  This particular sword was forged from an especially high-quality steel, making it a good weapon for adventurers.  +35 ATK.  (Starting weapon/random drop)
+
+Okadagiri - The sword of the "Fool of Owari" Oda Nobunaga, the first of the great uniters of Japan.  Its name means "Okada Slayer", as Nobunaga used it to slay his retainer Okada Shigotaka in the Battle of 
+Komaki Nagakute.  +56 ATK.  (Found in chest)
+
+Gozen - The sword of the legendary female samurai Tomoe Gozen.  In Heike Monogatari, Tomoe is said to be a warrior who could confront demons and gods.  
+The sword imbues the wielder with Tomoe's prowess in combat, allowing them to match the strength of divinity.  +70 ATK.  (Found in chest)
+
+Muramasa - One of many cursed swords forged by the legendary smith Muramasa.  While powerful, the sword slowly corrupts its wielders, turning them into cruel harbingers of death and destruction.  +80 ATK.
+When equipped, the wielder takes 10 damage per 3 steps, but gains 30 health per kill. (Obtained from defeating boss Muramasa: Corrupted Sword of Bloodlust)
+
+Honjo Masamune - A brilliant sword forged by the genius smith Masamune and wielded by a general of Uesugi Kenshin, the Dragon of Echigo. 
+The swords of Masamune were of unparalleled beauty and are said to have never harmed an innocent soul, in contrast to the tainted blades of Muramasa.  +95 ATK.  (Found in chest)
+
+Doujigiri Yasutsuna - The sword of the hero Minamoto no Yorimitsu, known for his numerous monster-slaying exploits.  
+Having tasted the blood of numerous yokai, the sword became attuned to the path of "Monster-Slaying", and as such, it radiates a holy light which threatens monsters.  +76 ATK.  Deals 50% increased damage to oni.
+(Obtained from defeating optional boss Shuten-Doji: Great Oni of the Mountain)
+
+Totsuka no Tsurugi - The legendary sword of the sea god Susanoo, used by his father Izanagi to slay Kagutsuchi, the kami of fire.  The sword reflects its wielder, and its innate turbulence rages as it clashes against worthy
+opponents.  Susanoo's might radiates within the sword, and it possesses a will to rampage amongst its foes.  +108 ATK. Deals 33% increased damage to Susanoo. (Found in chest)
+
+Kusanagi no Tsurugi - The legendary sword of the sun goddess Amaterasu and one of the three Imperial Regalia of Japan.  Found in the corpse of the serpent Orochi, it was given to the goddess by her brother Susanoo
+as a gift.  It is said to be able to control the wind.  +120 ATK.  Can attack from 2 space radius.  (Obtained from defeating boss Yamato Takeru: Berserk Hero of Nippon)
+
+Tora-Shinai - A bamboo practice sword imbued with the spirit of a tiger which thirsts for the blood of its enemies.  Legend has it that the blade is blessed by Byakko, rendering it stronger than the mightiest steel.
+For some inexplicable reason, a chibi tiger charm hangs from its hilt.  +115 ATK.  (Obtained from defeating optional boss Byakko: White Tiger of the West)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ranged Weapons (can attack from 3 space radius, for the most part)
+
+Shuriken - A thrown weapon used by ninjas.  Unlike their depiction in popular culture, shuriken were mainly used to distract and inconvenience enemies instead of killing them.  +13 ATK.  (Random drop) (One use only)
+
+Yumi Bow - A traditional Japanese bow used by samurai.  These bows are of exceptionally long length and can be used for horseback archery.  The yumi bow is one of the standard weapons of samurai.  +27 ATK.
+(Starting weapon/Random drop)
+
+Kusarigama - A sickle weapon used by ninjas.  Traditionally, the chain is used to incapacitate enemies, while the sickle is used to quickly execute them.  +35 ATK.  Can only attack from 2 space radius.  (Random drop)
+
+Musket - A predecessor to the modern-day rifle, introduced to Japan by the Portuguese.  Employed to great effect by Oda Nobunaga in order to crush the famed Takeda cavalry at the Battle of Nagashino. +56 ATK
+(Random drop)
+
+Magoichi - An arquebus used by one of the leaders of the Saika Ikki, who went under the name of Saika Magoichi.  Each Magoichi was a skilled rifleman who armed his troops with arquebuses, making them a force
+to be reckoned with.  It is said that this particular arquebus is unable to miss due to the sheer prowess of its previous wielder.  +75 ATK.  Can not miss.  (Obtained from defeating optional boss Saika Magoichi: Arquebus Lord)
+
+Azusa Yumi - A sacred bow wielded in the name of purity.
+
+Hama Yumi - A sacred bow wielded in the name of justice.  When an evil demon seized control of the Imperial Palace and poisoned the Emperor, the wielder of the bow, Yorimasu Minamoto, came and slew the demon
+with the first arrow shot from the bow.  Since then, the bow has been declared to be an "Evil-Destroying Bow", wielded to great effect against monsters.  +85 ATK.  Deals 50% increased damage against youkai.
+(Found in chest)
+
+Shigehto Yumi - A sacred bow wielded in the name of unity.  
+
+Yata no Kagami - The mirror used to trick the sun goddess Amaterasu into leaving her cave and one of the three Imperial Regalia of Japan.  While not intended to be used as a weapon, the mirror possesses the
+essence of Amaterasu, allowing it to exorcise foes with the cleansing flames of the sun.  +113 ATK.  Deals 80 additional damage to spirits. (Obtained from defeating boss Tamamo-no-Mae: Nine-Tailed Courtesan)
+
+Harisen - A Japanese paper fan used in the style of comedy known as Manzai.  Manzai is a type of stand-up comedy which involves a boke (foolish man) and a tsukkomi (straight man).  The tsukkomi typically
+punishes the boke for his idiocy, usually with a harisen.  For some unknown reason, this harisen deals an exceptional amount of damage, leaving its wielder to wonder what poor, hapless boke faced its wrath.
++55 ATK (Attacks 3 times).  (Obtained from defeating optional boss Tsun-Tsun: Goddess of Indecision)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Armor (provides defense stats)
+
+Peasant Clothes - The clothes of a typical peasant.  These particular clothes were worn by a talented ninja.  Contrary to popular culture, ninjas often wore peasant and samurai clothing instead of black full-body garb.
++16 to DEF.  +22 to AGI.  (Random drop)
+
+Nanban Dou - A type of Japanese armor based off of European armor.  Unlike older styles of armor, this armor uses iron plates instead of scales.  +32 to DEF.  (Starting armor).
+
+Tameshi Gusoku - A type of Japanese armor that has been bullet-tested.  As such, it has been proven to be quite resistant to most impacts.  +47 to DEF.  (Random drop/chests)
+
+Love and Judgement - The armor of Naoe Kanetsugu, famed servant of Uesugi Kenshin, the Dragon of Echigo.  In life, Kanetsugu was a skilled tactician with sound judgement, being responsible for many of the
+Uesugi clan's actions leading up to the famous Battle of Sekigahara.  The kanji for love adorns the top of the kabuto, symbolizing the armor's wish to bring peace to the innocent.  +60 to DEF.  (Found in chest)
+
+Fuu-Rin-Ka-Zan - The armor of Takeda Shingen, the Tiger of Kai.  A military genius with superior charisma and wisdom, Shingen led the Kai province to great power and prosperity with overwhelming cavalry tactics and decisive adminstration.  It is said that he once fought
+his rival Uesugi Kenshin with an iron fan.  +76 to DEF.  Grants a 10% chance of blocking basic attacks.  (Obtained from defeating Uesugi Kenshin: Dragon of Echigo)
+
+Maid Costume - A western maid costume worn by a legendary housekeeper.  Provides +30 to Cleaning and Cooking, as well as +100 to Moe Moe Kyun.  Seemingly indestructible.  +108 to Defense.  
+Reduces damage taken from Divinity by 10%.  (Obtained from defeating optional boss St. Maid-Guy: Patron Saint of Maids)
+
+Kuniumi - An armor said to have been worn by the god Izanagi, father of Japan and the Shinto deities.  Using the divine spear Amenonuhoko, he churned the primordial sea and formed the islands of Japan from water drops
+falling from the spear.  Unknown power rests within the folds of the armor's material.  +130 to DEF.  When used as an item, uses ability Amenonuhoko.  (Found in chest on last 3 floors before Susanoo's floor.)
+	Amenonuhoko (3 space radius) - throws a replica of the spear Amenonuhoko, dealing 25% of enemy's current health as damage.  Does not work on bosses.  Can only be used once per enemy.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
