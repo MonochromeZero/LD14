@@ -19,7 +19,7 @@ Lore (Select Lore command to access Lore menu [Sub-menus: Enemies (includes Boss
 
 Enemies
 
-Yuki-onna (Type: Youkai/Spirit): A female youkai born from the spirits 
+Yuki-onna (Type: Youkai/Spirit): A female youkai born from the spirits of those who perished in the snow.  
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Bosses
 
@@ -42,6 +42,8 @@ Drops Magoichi upon defeat.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Shuten-Doji: Great Oni of the Mountain (Type: Youkai/Oni) - (Optional) (Lore:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Uesugi Kenshin: Dragon of Echigo (Type: Spirit) - (Required) (Lore:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Tamamo-no-Mae: Nine-Tailed Courtesan (Type: Youkai) - (Required) (Lore: )  The guardian of Yata no Kagami, one of the three Imperial Regalia of Japan.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Yamato Takeru: Berserk Hero of Nippon (Type: Spirit) - (Required) (Lore:)  The guardian of Kusanagi no Tsurugi, one of the three Imperial Regalia of Japan.
@@ -63,7 +65,7 @@ Essence Swap: Seiryuu - Byakko swaps his essence with that of the Azure Dragon o
 medium damage each turn.  Only used in Seiryuu Essence.  Sonic Roar (5 space radius) - Byakko unleashes a powerful roar, knocking the player back 5 spaces and dealing medium-high damage.  Essence Swap:
 Ouryuu - Byakko swaps his essence to that of the Yellow Dragon, Ouryuu.   In the essence, he can wield any of the other stances abilities.
 Under Heaven Destruction (Full room AOE) - Byakko leaps to the center of the room and begins summoning the symbols of Fire, Water, Wood,
-and Metal.  (5 turns)  On his next turn, he multiplies the gravity in the room by 1000x, dealing massive damage to all beings in the room.  Only used in Ouryuu Essence.
+and Metal.  (10 turns)  On his next turn, he multiplies the gravity in the room by 1000x, dealing massive damage to all beings in the room.  Only used in Ouryuu Essence.
 
 Behavior: Healthy (100-75%) - Uses Byakko Essence + abilities exclusively.  Damaged (75-25%) - Uses Byakko, Suzaku, Genbu, and Seiryuu Essences and abilities.  Enraged (25% and below) - Immediately swaps
 over to Ouryuu Essence when health goes below 25% and uses Ouryuu, Byakko, Suzaku, Genbu, and Seiryuu Essences and abilities (cannot swap Essences).
@@ -116,7 +118,7 @@ Tiger Sake - temporarily increases ATK by 30% for 5 turns.  (Random drop/Chests)
 
 Tortoise Sake - temporarily increases DEF by 30% for 5 turns.  (Random drop/Chests) (Can have a max of 5 Tortoise Sakes)
 
-Dragon Sake - temporarily increases ATK + DEF by 30% for 5 turns (Chests) (Can have a max of 3 Dragon Sakes)
+Dragon Sake - temporarily increases ATK + DEF by 40% for 4 turns (Chests) (Can have a max of 3 Dragon Sakes)
 
 Suzaku Wing - revives player upon death with 40% health.  (Occasionally dropped by Byakko: White Tiger of the West) (Can have a max of 1 Suzaku Wing)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -170,13 +172,16 @@ Musket - A predecessor to the modern-day rifle, introduced to Japan by the Portu
 Magoichi - An arquebus used by one of the leaders of the Saika Ikki, who went under the name of Saika Magoichi.  Each Magoichi was a skilled rifleman who armed his troops with arquebuses, making them a force
 to be reckoned with.  It is said that this particular arquebus is unable to miss due to the sheer prowess of its previous wielder.  +75 ATK.  Can not miss.  (Obtained from defeating optional boss Saika Magoichi: Arquebus Lord)
 
-Azusa Yumi - A sacred bow wielded in the name of purity.
+Azusa Yumi - A sacred bow wielded in the name of purity.  This bow was wielded by the first human ruler of Japan, Jimmu Tenno.
+Legend has it that a golden bird landed upon the bow, infusing the bow with the ability to dispel evil with the mere plucking of its string.
++95 ATK.  If used as an item, shoots a holy projectile (3 space radius) that deals 100 damage to youkai.  (Found in chest)
 
 Hama Yumi - A sacred bow wielded in the name of justice.  When an evil demon seized control of the Imperial Palace and poisoned the Emperor, the wielder of the bow, Yorimasu Minamoto, came and slew the demon
 with the first arrow shot from the bow.  Since then, the bow has been declared to be an "Evil-Destroying Bow", wielded to great effect against monsters.  +85 ATK.  Deals 50% increased damage against youkai.
 (Found in chest)
 
-Shigehto Yumi - A sacred bow wielded in the name of unity.  
+Shigehto Yumi - A sacred bow wielded in the name of unity.  This bow and its sisters were given to the various servants of Tokugawa Ieyasu.  They represent the unity of Japan
+and the concept of a "Warrior of Peace".  +49 ATK.  Attacks twice.  (Random drop in latter levels)
 
 Yata no Kagami - The mirror used to trick the sun goddess Amaterasu into leaving her cave and one of the three Imperial Regalia of Japan.  While not intended to be used as a weapon, the mirror possesses the
 essence of Amaterasu, allowing it to exorcise foes with the cleansing flames of the sun.  +113 ATK.  Deals 80 additional damage to spirits. (Obtained from defeating boss Tamamo-no-Mae: Nine-Tailed Courtesan)
@@ -197,7 +202,8 @@ Nanban Dou - A type of Japanese armor based off of European armor.  Unlike older
 Tameshi Gusoku - A type of Japanese armor that has been bullet-tested.  As such, it has been proven to be quite resistant to most impacts.  +47 to DEF.  (Random drop/chests)
 
 Love and Judgement - The armor of Naoe Kanetsugu, famed servant of Uesugi Kenshin, the Dragon of Echigo.  In life, Kanetsugu was a skilled tactician with sound judgement, being responsible for many of the
-Uesugi clan's actions leading up to the famous Battle of Sekigahara.  The kanji for love adorns the top of the kabuto, symbolizing the armor's wish to bring peace to the innocent.  +60 to DEF.  (Found in chest)
+Uesugi clan's actions leading up to the famous Battle of Sekigahara.  The kanji for love adorns the top of the kabuto, symbolizing the armor's wish to bring peace to the innocent.  +60 to DEF.  If used as item, restores 50 health.
+Can only be used as an item once every 5 turns.  (Found in chest)
 
 Fuu-Rin-Ka-Zan - The armor of Takeda Shingen, the Tiger of Kai.  A military genius with superior charisma and wisdom, Shingen led the Kai province to great power and prosperity with overwhelming cavalry tactics and decisive adminstration.  It is said that he once fought
 his rival Uesugi Kenshin with an iron fan.  +76 to DEF.  Grants a 10% chance of blocking basic attacks.  (Obtained from defeating Uesugi Kenshin: Dragon of Echigo)
@@ -209,3 +215,7 @@ Kuniumi - An armor said to have been worn by the god Izanagi, father of Japan an
 falling from the spear.  Unknown power rests within the folds of the armor's material.  +130 to DEF.  When used as an item, uses ability Amenonuhoko.  (Found in chest on last 3 floors before Susanoo's floor.)
 	Amenonuhoko (3 space radius) - throws a replica of the spear Amenonuhoko, dealing 25% of enemy's current health as damage.  Does not work on bosses.  Can only be used once per enemy.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Accessories (provides various bonuses)
+
+Yasakani no Magatama - A jewel worn by the sun goddess Amaterasu and one of the three Imperial Regalia of Japan.  As Amaterasu left her cave, a large amount of sunlight entered the jewel, 
